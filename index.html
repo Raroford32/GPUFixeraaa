@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>oobabooga/text-generation-webui Setup</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        h1 {
+            color: #333;
+        }
+        pre {
+            background-color: #f4f4f4;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>oobabooga/text-generation-webui Setup</h1>
+    <p>Welcome to the setup page for oobabooga/text-generation-webui. Follow these steps to get started:</p>
+    <ol>
+        <li>Ensure that you have Python 3.8 or higher installed on your system.</li>
+        <li>Open a terminal or command prompt in the directory containing the <code>setup_and_run.py</code> script.</li>
+        <li>Run the following command to start the setup and launch the web UI:</li>
+    </ol>
+    <pre><code>python setup_and_run.py</code></pre>
+    <p>The script will perform the following tasks:</p>
+    <ul>
+        <li>Check and verify CUDA and NVIDIA driver installation</li>
+        <li>Install required Python packages</li>
+        <li>Clone the oobabooga/text-generation-webui repository</li>
+        <li>Configure the application to use all 8 A100 GPUs</li>
+        <li>Start the text generation web UI</li>
+    </ul>
+    <p>Once the setup is complete and the web UI is running, you can access it at:</p>
+    <p><a href="http://localhost:5000" target="_blank">http://localhost:5000</a></p>
+    <p>If you encounter any issues during the setup process, please check the console output for error messages and troubleshooting information.</p>
+</body>
+</html>
